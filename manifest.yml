@@ -1,8 +1,8 @@
 ---
 name : tlvince
 website : http://tlvince.com
-git_url : git://github.com/tlvince/theme-twitter.git
-source_url : https://github.com/tlvince/theme-twitter
+git_url : git://github.com/tlvince/theme-tlvince.git
+source_url : https://github.com/tlvince/theme-tlvince
 author:
   name : "Jacob Thornton and Mark Otto"
   website : http://twitter.github.com/bootstrap
