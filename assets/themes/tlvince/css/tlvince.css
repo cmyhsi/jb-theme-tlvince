@@ -30,3 +30,12 @@ p {
 time {
     color: #999;
 }
+
+.tag_box {
+    list-style: none;
+}
+
+.tag_box > li {
+    float: left;
+    padding-right: 5px;
+}
