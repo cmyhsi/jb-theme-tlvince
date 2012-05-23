@@ -1,0 +1,11 @@
+{% for post in site.posts limit:5 %}
+<article>
+  <header class="page-header">
+    <h2><a href="{{ post.url }}" rel="bookmark" title="Permanent link to {{post.title}}">{{ post.title}}</a></h2>
+    <time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time>
+  </header>
+  {{ post.content }}
+  <div class="divider"></div>
+</article>
+{% endfor %}
+
