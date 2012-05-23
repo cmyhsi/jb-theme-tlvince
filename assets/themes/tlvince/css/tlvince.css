@@ -1,6 +1,5 @@
 body {
   background: #EEE url(../img/subtle-bg.png) repeat top left
-  color: #444;
 }
 
 
@@ -14,6 +13,10 @@ body {
   border-bottom: 1px solid #ffffff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #464646;
+}
+
 h2 > a {
     color: #555;
 }
@@ -21,4 +24,9 @@ h2 > a {
 p {
     font-size: 14px;
     line-height: 28px;
+    color: #444;
+}
+
+time {
+    color: #999;
 }
