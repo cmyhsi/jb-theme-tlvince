@@ -33,6 +33,7 @@ time {
 
 .tag_box {
     list-style: none;
+    padding-bottom: 20px;
 }
 
 .tag_box > li {
