@@ -16,10 +16,8 @@
       {% endunless %}
 
       <ul class="pull-right box">
-        {% if post %}
-            {% assign sharing_context = post %}
-        {% endif %}
-        {% assign sharing_message_prefix = "Photo" %}
+        {% assign sharing_context = context %}
+        {% assign sharing_message_prefix = "Photo " %}
         {% include JB/sharing %}
       </ul>
     </div>
