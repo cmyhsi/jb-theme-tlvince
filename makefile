@@ -1,4 +1,4 @@
-css=assets/themes/tlvince/css
+css=assets/themes/cmyhsi/css
 
 all:
-	cat $(css)/bootstrap.css $(css)/font-awesome.css $(css)/tlvince.css | yuicompressor --type css -o $(css)/tlvince.min.css
+	cat $(css)/bootstrap.css $(css)/font-awesome.css $(css)/cmyhsi.css | yuicompressor --type css -o $(css)/tlvince.min.css
